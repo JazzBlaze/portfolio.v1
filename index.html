@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a href="/"><img class="nav-logo" src="images/logo.gif" alt="" /></a>
+      <img class="nav__toggler" src="images/menu.svg" alt="" />
+      <ul class="nav-list collapsible__content">
+        <li class="list-item1 fade1">
+          <a href="portfolio.html#about" target="portfolio">ABOUT</a>
+        </li>
+        <li class="list-item1 fade2">
+          <a href="portfolio.html#projects" target="portfolio">MY PROJECTS</a>
+        </li>
+        <li class="list-item1 fade3">
+          <a href="portfolio.html#skills" target="portfolio">SKILLS</a>
+        </li>
+        <li class="list-item1 fade4"><a href="#contact">CONTACT</a></li>
+      </ul>
+      <ul class="nav-list collapsible__content">
+        <li class="list-item2">
+          <a href="https://www.instagram.com/smthin_inthe_whey/" target="_blank"
+            ><img class="nav-socials__insta" src="images/instalogo.png" alt=""
+          /></a>
+        </li>
+        <li class="list-item2">
+          <a href="https://www.linkedin.com/in/thejas-sanjeev/" target="_blank">
+            <img
+              class="nav-socials__linkedin"
+              src="images/linkedinlogo.png"
+              alt=""
+            />
+          </a>
+        </li>
+        <li class="list-item2">
+          <a href="https://github.com/JazzBlaze" target="_blank"
+            ><img class="nav-socials__git" src="images/gitlogo.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </nav>
+    <section class="block">
+      <div class="grid grid--1x2">
+        <div class="hero-text1 fade-out">
+          <h1>THEJAS SANJEEV</h1>
+          <div class="hero-animation">
+            <h3 class="hero-animetxt">FULL STACK DEVELOPER</h3>
+            <img src="images/lightning.gif" alt="" />
+          </div>
+        </div>
+        <div class="hero-text2">
+          <h4>building</h4>
+          <h1>BEAUTIFUL</h1>
+          <div class="typing-container">
+            <p id="sentence" class="sentence">></p>
+            <p id="feature-text"></p>
+            <p class="input-cursor"></p>
+          </div>
+          <a class="liq_btn" href="images/CV.pdf" target="_blank"
+            >Curriculum Vitae</a
+          >
+        </div>
+        <img class="hero-image" src="images/sticker.png" alt="" />
+      </div>
+    </section>
+    <iframe
+      name="portfolio"
+      width="100%"
+      loading="lazy"
+      height="2800px"
+      src="portfolio.html"
+      frameborder="0"
+    ></iframe>
+    <div id="contact" class="grid grid-contact container-main">
+      <h2 class="sub-title d">CONTACT ME</h2>
+      <div class="e">
+        <p class="about-txt sub-txt gradient-headings">
+          Interested in having your own custom websites or webapps come to
+          reality? Email me or check out my Fiverr!!
+        </p>
+
+        <a
+          class="liq_btn"
+          target="_blank"
+          href=" https://www.fiverr.com/skedaddle19"
+          >FIVERR</a
+        >
+        <a class="liq_btn" href="mailto: thejasdub@gmail.com">Send Email</a>
+      </div>
+      <img class="about-img f" src="images/contact.png" alt="" />
+    </div>
+    <div class="footer">©THEJAS SANJEEV. 2022, ALL RIGHTS RESERVED</div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/collapsible.js"></script>
+  </body>
+</html>
