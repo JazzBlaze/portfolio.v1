@@ -22,7 +22,17 @@ html {
 img {
   width: 100%;
 }
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #424242;
+}
 
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  border-radius: 100px;
+}
 body {
   font-family: "Playfair Display", serif;
   font-size: 2rem;

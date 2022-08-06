@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <nav class="nav collapsible">
@@ -36,21 +37,30 @@
       <ul class="nav-list collapsible__content">
         <li class="list-item2">
           <a href="https://www.instagram.com/smthin_inthe_whey/" target="_blank"
-            ><img class="nav-socials__insta" src="images/instalogo.png" alt=""
+            ><img
+              class="nav-socials__insta"
+              src="images/instalogo.webp"
+              alt=""
+              loading="eager"
           /></a>
         </li>
         <li class="list-item2">
           <a href="https://www.linkedin.com/in/thejas-sanjeev/" target="_blank">
             <img
               class="nav-socials__linkedin"
-              src="images/linkedinlogo.png"
+              src="images/linkedinlogo.webp"
               alt=""
+              loading="eager"
             />
           </a>
         </li>
         <li class="list-item2">
           <a href="https://github.com/JazzBlaze" target="_blank"
-            ><img class="nav-socials__git" src="images/gitlogo.png" alt=""
+            ><img
+              class="nav-socials__git"
+              src="images/gitlogo.webp"
+              alt=""
+              loading="eager"
           /></a>
         </li>
       </ul>
@@ -76,7 +86,7 @@
             >Curriculum Vitae</a
           >
         </div>
-        <img class="hero-image" src="images/sticker.png" alt="" />
+        <img class="hero-image" src="images/hero.webp" alt="" loading="eager" />
       </div>
     </section>
     <iframe
@@ -90,7 +100,11 @@
     <div id="contact" class="grid grid-contact container-main">
       <h2 class="sub-title d">CONTACT ME</h2>
       <div class="e">
-        <p class="about-txt sub-txt gradient-headings">
+        <p
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          class="about-txt sub-txt gradient-headings"
+        >
           Interested in having your own custom websites or webapps come to
           reality? Email me or check out my Fiverr!!
         </p>
@@ -103,7 +117,14 @@
         >
         <a class="liq_btn" href="mailto: thejasdub@gmail.com">Send Email</a>
       </div>
-      <img class="about-img f" src="images/contact.png" alt="" />
+      <img
+        loading="lazy"
+        data-aos="zoom-in-left"
+        data-aos-duration="1500"
+        class="about-img f"
+        src="images/contact.webp"
+        alt=""
+      />
     </div>
     <div class="footer">©THEJAS SANJEEV. 2022, ALL RIGHTS RESERVED</div>
     <script
@@ -113,5 +134,9 @@
     ></script>
     <script src="js/cursor.js"></script>
     <script src="js/collapsible.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
